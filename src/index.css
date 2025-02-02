@@ -15,17 +15,12 @@ body {
   background-color: rgb(74, 202, 159);
   display: flex;
   justify-content: space-between;
-  justify-items: center;
+  align-items: center;
   padding: 20px 100px;
 }
 
 .logo {
   font-size: 2rem;
-}
-
-.searchBar {
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .search {
@@ -44,7 +39,7 @@ body {
   color: white;
 }
 
-.searchBtn:hover{
+.searchBtn:hover {
   background-color: white;
   color: black;
   transition: 0.75s;
@@ -52,8 +47,6 @@ body {
 
 .navigation {
   font-size: 1.5rem;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .navigation a {
